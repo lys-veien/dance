@@ -1,4 +1,4 @@
-// ya clever sneaky sneak!!! don't look at this! 
+// ya sneaky sneak!!! don't look at this! 
 
 function makeWish() {
   let wish = document.getElementById("inlineFormInput").value;
@@ -13,7 +13,7 @@ function makeWish() {
     download('invitation.txt', text);
   } else {
     let song = 'When you wish upon a star\nMakes no difference who you are\nAnything your heart desires\nWill come to you\nIf your heart is in your dream\nNo request is too extreme\nWhen you wish upon a star\nAs dreamers do\nLike a bolt out of the blue\nFate steps in and sees you through\nWhen you wish upon a star\nYour dreams come true';
-    download('whispers.txt', song);
+    download('whispers.txt', song)
   }
 }
 

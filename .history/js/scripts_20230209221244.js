@@ -1,4 +1,4 @@
-// ya clever sneaky sneak!!! don't look at this! 
+// ya sneaky little meddling kid!!! don't look at this! 
 
 function makeWish() {
   let wish = document.getElementById("inlineFormInput").value;
@@ -9,11 +9,11 @@ function makeWish() {
     satisfaction: 'Thu Feb 12 2023 21:05:00 GMT-0500 (Eastern Standard Time) 41°18\'34.3\"N 72°56\'06.9\"W'
   }; 
   if (map[wish]) {
-    let text = map[wish] + '\nIf this time does not work for you, or if you have any concerns, please email lys.veien.2023@gmail.com.'
+    let text = map[wish] + '\nIf this time does not work for you or if you have any concerns, please email lys.veien.2023@gmail.com.'
     download('invitation.txt', text);
   } else {
     let song = 'When you wish upon a star\nMakes no difference who you are\nAnything your heart desires\nWill come to you\nIf your heart is in your dream\nNo request is too extreme\nWhen you wish upon a star\nAs dreamers do\nLike a bolt out of the blue\nFate steps in and sees you through\nWhen you wish upon a star\nYour dreams come true';
-    download('whispers.txt', song);
+    download('whispers.txt', song)
   }
 }
 
