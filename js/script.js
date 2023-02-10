@@ -1,7 +1,7 @@
 // ya clever sneaky sneak!!! don't look at this! 
 
 function makeWish() {
-  let wish = document.getElementById("inlineFormInput").value;
+  let wish = document.getElementById("inlineFormInput").value.toLowerCase().replaceAll(' ', '');
   let map = {
     vigor: 'Thu Feb 09 2023 21:05:00 GMT-0500 (Eastern Standard Time) 41°18\'34.3\"N 72°56\'06.9\"W',
     prosperity: 'Thu Feb 10 2023 21:05:00 GMT-0500 (Eastern Standard Time) 41°18\'34.3\"N 72°56\'06.9\"W',
